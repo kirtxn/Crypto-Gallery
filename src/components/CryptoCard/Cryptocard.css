@@ -1,0 +1,60 @@
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.384);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+
+    width: 10rem;
+    height: 13rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(104%);
+    transition-duration: 2sec;
+}
+.image1{
+    width: 8rem;
+    height: 8rem;
+}
+
+.image{
+    position: absolute;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:1rem;
+
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    position: absolute;
+    font-size: 1rem;
+    top:9rem;
+    left:1rem;
+    font-weight: 800;
+
+}
+
+.price{
+    position: absolute;
+    font-size: 14px;
+    top:10.5rem;
+    left:1rem;
+    font-weight: 400;
+}
